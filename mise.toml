@@ -1,0 +1,10 @@
+[tools]
+stylua = "2.5.2"
+
+[tasks."fix:format"]
+description = "Format project Lua files"
+run = "stylua --verify init.lua config.lua modules tests"
+
+[tasks."check:format"]
+description = "Check Lua formatting without modifying files"
+run = "stylua --check init.lua config.lua modules tests"

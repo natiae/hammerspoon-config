@@ -52,3 +52,8 @@ require('modules.esc_convert_to_eng'):start()
 require('modules.window_picker'):start({
   hotkey = { { 'cmd', 'ctrl' }, 'up' },
 })
+
+require('modules.gitmoji_picker'):start({
+  hotkey = { { 'ctrl', 'option', 'shift' }, 'e' },
+  output = 'emoji',
+})

@@ -77,3 +77,7 @@ StyLua 버전은 `mise.toml`에 고정합니다. 포맷 검사는 정적 분석 
 - [Input Source Aurora의 참고 출처](modules/inputsource_aurora/README.md#참고-출처)
 - [Escape Convert to English의 참고 출처](modules/esc_convert_to_eng/README.md#참고-출처)
 - [Window Grid의 참고 출처](modules/window_grid/README.md#참고-출처)
+
+## Gitmoji 선택기
+
+`Ctrl + Option + Shift + E`로 커서 근처의 검색 격자를 엽니다. [사용법과 설정](modules/gitmoji_picker/README.md)을 참고하세요.
